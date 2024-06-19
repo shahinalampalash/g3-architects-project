@@ -155,10 +155,9 @@ nav h3 {
     font-size: 16px;
 }
 
-/* .features-img{
-    /* height: 90%; */
-/* margin-left: 90px; */
-/* } */
+.features-img{
+    width: 100%;
+}
 
 .ten-years-badge {
     border-radius: 5px;
@@ -262,10 +261,8 @@ nav h3 {
 footer{
     border-radius: 8px;
     background: rgb(255, 244, 231);
-    /* width: 100%;
-    height: 50px; */
     text-align: center;
-    padding: 70px 100px;
+    padding: 30px 100px;
     color: rgb(66, 66, 66);
     font-size: 20px;
     margin: 140px 240px;
@@ -286,15 +283,47 @@ footer{
         margin: 10px;
     }
 
-    .brand-photo {
-        margin: 10px;
-        height: auto;
-        width: 100%;
-    }
+    
 
     .quick-list {
         flex-direction: column;
         margin: 10px;
+    }
+    footer{
+        padding: 5px;
+        margin: 10px;
+    }
+    .Sponspors-img{
+        flex-direction: column;
+        margin: 10px;
+        padding: 5px;
+    }
+    .Sponspors{
+        margin: 10px;
+    }
+    .card-one-parents{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .Some-Facts{
+        margin: 10px;
+    }
+    .Features{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .quick-list-photo{
+        grid-template-columns: 1fr;
+    }
+    .features-img img{
+        width: 90%;
+    }
+    .brand-photo img{
+        width: 100%;
+        height: auto;
+    }
+    .brand-photo{
+        margin: 0px;
     }
 
 }
