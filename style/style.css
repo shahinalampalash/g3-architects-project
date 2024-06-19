@@ -52,6 +52,7 @@ nav h3 {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .brand-photo {
@@ -71,11 +72,67 @@ nav h3 {
     padding: 20px;
     margin: 53px 750px;
 }
-.quick-list{
+
+.quick-list {
     display: flex;
     gap: 70px;
+    margin: 85px 301px 130px 301px;
+    align-items: center;
 }
-.quick-list-photo{
+
+.quick-list-photo {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.quick-list-content-title {
+    color: #727272;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.of-our {
+    font-size: 45px;
+    color: #131313;
+}
+
+.off-our-dd {
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.quick-list-content-dd {
+    color: rgb(114, 114, 114);
+    font-size: 16px;
+}
+.btn-primary-1{
+    border-radius: 8px;
+padding: 20px;
+color: #FFFFFF;
+font-size: 20px;
+background: rgb(255, 144, 14);
+border: 0px;
+}
+
+
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .btn-primary{
+        margin: 10px;
+    }
+    .quick-list-photo{
+        grid-template-columns: 1fr;
+        margin: 10px;
+    }
+    .brand-section .brand-photo{
+        max-width: 100%;
+        margin: 10px;
+    }
+    .quick-list{
+        flex-direction: column;
+        margin: 10px;
+    }
 }
