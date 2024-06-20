@@ -350,10 +350,6 @@ footer{
         flex-direction: column;
         margin: 10px;
     }
-    .Sponspors-img{
-        margin: 10px;
-        padding: 5px;
-    }
     .Sponspors{
         margin: 10px;
     }
@@ -380,5 +376,17 @@ footer{
     }
     .quick-list-content{
         margin: 10px;
+    }
+    .Sponspors-img{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+       
+        margin: 10px;
+        padding: 5px;
+    }
+    .card-one-parents{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 10px;
     }
 }
